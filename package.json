@@ -1,0 +1,21 @@
+{
+  "name": "next-blog-api",
+  "version": "1.0.0",
+  "description": "API server",
+  "main": "src/app.ts",
+  "repository": "https://github.com/TanglingTreats/next-blog-api.git",
+  "author": "Edwin Tang",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/app.js",
+    "dev": "ts-node ./src/app.js"
+  },
+  "dependencies": {
+    "@types/node": "^18.15.9",
+    "typescript": "^5.0.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
