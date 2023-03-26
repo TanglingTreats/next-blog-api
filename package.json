@@ -9,10 +9,13 @@
   "scripts": {
     "build": "tsc",
     "start": "node ./bin/app.js",
-    "dev": "ts-node ./src/app.js"
+    "dev": "ts-node ./src/app.ts"
   },
   "dependencies": {
     "@types/node": "^18.15.9",
+    "@types/polka": "^0.5.4",
+    "dotenv": "^16.0.3",
+    "polka": "^0.5.2",
     "typescript": "^5.0.2"
   },
   "devDependencies": {
